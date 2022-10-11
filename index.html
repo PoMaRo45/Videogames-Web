@@ -4,10 +4,10 @@
             width: 20%;
             border: 3px solid #73AD21;
             padding: 10px;
-            height: 100%;
+            height: 85%;
         }
         .bloque{
-            width: 55%;   
+            width: 45%;   
             height: 45%;  
             padding: 5px;   
             border: 1px solid rgb(0, 0, 0);      
@@ -15,14 +15,39 @@
         }
         .noticias {
             display: flex;
-            width: 60%;
-            height: 100%;
+            width: 80%;
+            height: 90%;
             padding: 5px;
+            justify-content:space-around;
+            flex-wrap:wrap ;
         }
-        .grande{
-            display: flex;
+        .caja_grande{
+            display: block;
             width: 100%;
-            height:600;
+            height:800px;
+        }
+        .centrado{
+            text-align: center;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        .titulo_trucos {
+            width:20% ;
+            height:95% ;
+        }
+        .titulo_noticias {
+            width:80% ;
+            height:95% ;
+        }
+        .titulos{
+            display:flex ;
+            width: 100%;
+            height:10% ;
+        }
+        .trucos_noticias{
+            display: flex;
+            width:100% ;
+            height:90% ;
         }
     </style>
     <head>
@@ -108,33 +133,40 @@
         </section>
         <section>
             <br><br><br>
-            <pre style="font-size:17px" ><h1>       Trucos                                                          Noticias</h1></pre>
-            <div class="grande">
-                <div class="esquerra"></div>
-                <div class="noticias">
-                    <div class="bloque">
-                        <img src="img.png" alt="Videoojuego 1" width="350" height="200" >
-                        <h3>Videojuego name</h3>
-                        <p>Desc. Fecha de estreno</p>
+            <div class="caja_grande">
+                <div class="titulos">
+                    <div class="titulo_trucos"><p class="centrado"> Trucos</p></div>
+                    <div class="titulo_noticias"><p class="centrado"> Noticias</p></div>
+                </div>
+                <div class="trucos_noticias">
+                    <div class="esquerra">
                     </div>
-                    <div class="bloque"> 
-                        <img src="img.png" alt="Videoojuego 1" width="350" height="200" >
-                        <h3>Videojuego name</h3>
-                        <p>Desc. Fecha de estreno</p>
-                    </div>
-                    <div class="bloque" >
-                        <img src="img.png" alt="Videoojuego 1" width="350" height="200" >
-                        <h3>Videojuego name</h3>
-                        <p>Desc. Fecha de estreno</p>
-                    </div>
-                    <div class="bloque">
-                        <img src="img.png" alt="Videoojuego 1" width="350" height="200" >
-                        <h3>Videojuego name</h3>
-                        <p>Desc. Fecha de estreno</p>
+                    <div class="noticias">
+                        <div class="bloque">
+                            <img src="img.png" alt="Videoojuego 1" width="100%" height="200" >
+                            <h3>Videojuego name</h3>
+                            <p>Desc. Fecha de estreno</p>
+                        </div>
+                        <div class="bloque"> 
+                            <img src="img.png" alt="Videoojuego 1" width="100%" height="200" >
+                            <h3>Videojuego name</h3>
+                            <p>Desc. Fecha de estreno</p>
+                        </div>
+                        <div class="bloque" >
+                            <img src="img.png" alt="Videoojuego 1" width="100%" height="200" >
+                            <h3>Videojuego name</h3>
+                            <p>Desc. Fecha de estreno</p>
+                        </div>
+                        <div class="bloque">
+                            <img src="img.png" alt="Videoojuego 1" width="100%" height="200" >
+                            <h3>Videojuego name</h3>
+                            <p>Desc. Fecha de estreno</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <br>
         </section>
+        <section></section>
     </body>
 </html>
