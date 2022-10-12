@@ -1,0 +1,102 @@
+.boxlinks {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.links {
+    width: 33%;
+}
+a {
+    color: rgb(0, 0, 0);
+    font-family: impact;
+    font-size: 25px;
+}
+a:hover {
+    border:2px black solid;
+    font-family: impact;
+    font-size: 25px;
+    padding: 5px;
+  }
+.caja_videojuegos {
+    width: 80%;
+    height: 700px;
+    display: block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.imagenes_videojuegos {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.videojuegos {
+    width: 30%;
+    height: 40%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    padding: 5px;
+}
+.caja_grande{
+    display: block;
+    width: 100%;
+    height:800px;
+}
+.centrado{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.titulos{
+    display:flex ;
+    width: 100%;
+    height:10% ;
+}
+.titulo_trucos {
+    width:20% ;
+    height:95% ;
+}
+.titulo_noticias {
+    width:80% ;
+    height:95% ;
+}
+.trucos_noticias{
+    display: flex;
+    width:100% ;
+    height:90% ;
+}
+.trucos{
+    width: 20%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    height: 85%;
+}
+.noticias {
+    display: flex;
+    width: 80%;
+    height: 90%;
+    padding: 5px;
+    justify-content:space-around;
+    flex-wrap:wrap ;
+}
+.bloque{
+    width: 45%;   
+    height: 45%;  
+    padding: 5px;   
+    border: 1px solid rgb(0, 0, 0);      
+    background-color: rgb(161, 161, 152);   
+}
+.button {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 5px 16px;
+    margin: 4px 2px;
+}

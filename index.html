@@ -1,56 +1,6 @@
 <html>
-    <style>
-        .esquerra{
-            width: 20%;
-            border: 3px solid #73AD21;
-            padding: 10px;
-            height: 85%;
-        }
-        .bloque{
-            width: 45%;   
-            height: 45%;  
-            padding: 5px;   
-            border: 1px solid rgb(0, 0, 0);      
-            background-color: rgb(161, 161, 152);   
-        }
-        .noticias {
-            display: flex;
-            width: 80%;
-            height: 90%;
-            padding: 5px;
-            justify-content:space-around;
-            flex-wrap:wrap ;
-        }
-        .caja_grande{
-            display: block;
-            width: 100%;
-            height:800px;
-        }
-        .centrado{
-            text-align: center;
-            font-size: 30px;
-            font-weight: bolder;
-        }
-        .titulo_trucos {
-            width:20% ;
-            height:95% ;
-        }
-        .titulo_noticias {
-            width:80% ;
-            height:95% ;
-        }
-        .titulos{
-            display:flex ;
-            width: 100%;
-            height:10% ;
-        }
-        .trucos_noticias{
-            display: flex;
-            width:100% ;
-            height:90% ;
-        }
-    </style>
     <head>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
         <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -76,59 +26,52 @@
             <br>
             <center>
             <img src="alien.png" alt="icono alien" width="45" height="45">
-            <br><br>
-            <table style="border-spacing:50px" width="70%">
-                <tr>
-                    <th width="33%"><a href="" target="_blank" style="font-size:25px">Link 1</a></th>
-                    <th width="33%"><a href="" target="_blank" style="font-size:25px">Link 2</a></th>
-                    <th width="33%"><a href="" target="_blank" style="font-size:25px">Link 3</a></th>
-                </tr>
-            </table>
+            <br><br><br><br>
+            <div class="boxlinks">
+                <div class="links"><a href="" target="_blank" class="sobre">Link 1</a></div>
+                <div class="links"><a href="" target="_blank" class="sobre">Link 2</a></div>
+                <div class="links"><a href="" target="_blank" class="sobre">Link 3</a></div>
+            </div>
+            <br>
             </center>
         </section>
         <section>
             <center>
-                <table width="75%">
-                    <tr>
-                        <th style="text-align:left"><h1>Videojuegos</h1></th>
-                        <th></th>
-                        <th></th>
-                    </tr>
-                    <tr>
-                        <td style="text-align:center">
-                            <img src="img.png" alt="Videoojuego 1" width="350" height="200" >
+                <div class="caja_videojuegos">
+                    <div><h1>Videojuegos</h1></div>
+                    <div class="imagenes_videojuegos">
+                        <div class="videojuegos">
+                            <img src="img.png" alt="Videoojuego 1" width="100%" height="66%">
                             <h3>Videojuego name</h3>
                             <p>Desc. Fecha de estreno</p>
-                        </td>
-                        <td style="text-align:center">
-                            <img src="img.png" alt="Videoojuego 1" width="350" height="200" >
+                        </div>
+                        <div class="videojuegos">
+                            <img src="img.png" alt="Videoojuego 2" width="100%" height="66%">
                             <h3>Videojuego name</h3>
                             <p>Desc. Fecha de estreno</p>
-                        </td>
-                        <td style="text-align:center">
-                            <img src="img.png" alt="Videoojuego 1" width="350" height="200">
+                        </div>
+                        <div class="videojuegos">
+                            <img src="img.png" alt="Videoojuego 3" width="100%" height="66%">
                             <h3>Videojuego name</h3>
                             <p>Desc. Fecha de estreno</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="text-align:center">
-                            <img src="img.png" alt="Videoojuego 1" width="350" height="200">
+                        </div>
+                        <div class="videojuegos">
+                            <img src="img.png" alt="Videoojuego 4" width="100%" height="66%">
                             <h3>Videojuego name</h3>
                             <p>Desc. Fecha de estreno</p>
-                        </td>
-                        <td style="text-align:center">
-                            <img src="img.png" alt="Videoojuego 1" width="350" height="200">
+                        </div>
+                        <div class="videojuegos">
+                            <img src="img.png" alt="Videoojuego 5" width="100%" height="66%">
                             <h3>Videojuego name</h3>
                             <p>Desc. Fecha de estreno</p>
-                        </td>
-                        <td style="text-align:center">
-                            <img src="img.png" alt="Videoojuego 1" width="350" height="200">
+                        </div>
+                        <div class="videojuegos">
+                            <img src="img.png" alt="Videoojuego 6" width="100%" height="66%">
                             <h3>Videojuego name</h3>
                             <p>Desc. Fecha de estreno</p>
-                        </td>
-                    </tr>
-                </table>
+                        </div>                    
+                    </div>
+                </div>
             </center>
         </section>
         <section>
@@ -139,28 +82,28 @@
                     <div class="titulo_noticias"><p class="centrado"> Noticias</p></div>
                 </div>
                 <div class="trucos_noticias">
-                    <div class="esquerra">
+                    <div class="trucos">
                     </div>
                     <div class="noticias">
                         <div class="bloque">
-                            <img src="img.png" alt="Videoojuego 1" width="100%" height="200" >
+                            <img src="img.png" alt="Videoojuego 1" width="100%" height="70%" >
                             <h3>Videojuego name</h3>
-                            <p>Desc. Fecha de estreno</p>
+                            <p>Desc. Fecha de estreno<button class="button">Leer mas +</button></p>
                         </div>
                         <div class="bloque"> 
-                            <img src="img.png" alt="Videoojuego 1" width="100%" height="200" >
+                            <img src="img.png" alt="Videoojuego 1" width="100%" height="70%" >
                             <h3>Videojuego name</h3>
-                            <p>Desc. Fecha de estreno</p>
+                            <p>Desc. Fecha de estreno<button class="button">Leer mas +</button></p>
                         </div>
                         <div class="bloque" >
-                            <img src="img.png" alt="Videoojuego 1" width="100%" height="200" >
+                            <img src="img.png" alt="Videoojuego 1" width="100%" height="70%" >
                             <h3>Videojuego name</h3>
-                            <p>Desc. Fecha de estreno</p>
+                            <p>Desc. Fecha de estreno<button class="button">Leer mas +</button></p>
                         </div>
                         <div class="bloque">
-                            <img src="img.png" alt="Videoojuego 1" width="100%" height="200" >
+                            <img src="img.png" alt="Videoojuego 1" width="100%" height="70%" >
                             <h3>Videojuego name</h3>
-                            <p>Desc. Fecha de estreno</p>
+                            <p>Desc. Fecha de estreno<button class="button">Leer mas +</button></p>
                         </div>
                     </div>
                 </div>
