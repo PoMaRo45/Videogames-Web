@@ -88,7 +88,7 @@ a:hover.sobre {
     flex-wrap:wrap ;
 }
 .bloque{
-    width: 45%;   
+    width: 35%;   
     height: 45%;  
     padding: 5px;   
     border: 1px solid rgb(0, 0, 0);      
@@ -139,7 +139,6 @@ footer {
 .direccion{
     width: 30%;
     text-align: right;
-
 }
 .links_redes{
     word-spacing: 30px;
@@ -150,3 +149,57 @@ footer {
     font-size: 20px;
     font-style: comic;
 }
+.contorno_videojuegos {
+    text-align: left; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 40px; 
+    background: #202020; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+    text-shadow: 0px 0px 9px #508AD3;
+}
+.contorno_trucos {
+    text-align: left; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 40px; 
+    background: #202020; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+    text-shadow: 0px 0px 9px #1e9700;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.contorno_noticias {
+    text-align: left; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 40px; 
+    background: #202020; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+    text-shadow: 0px 0px 9px #464946;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.contorno_ranking {
+    text-align: left; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 40px; 
+    background: #202020; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+}
+
